@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Website</title>
+    <title>Michael's Website</title>
     <link rel="stylesheet" href="CSS.css">
 </head>
 
@@ -20,55 +20,65 @@
                 <li><a href="Personality.html">Personality</a></li>
                 <li><a href="Storyboard.html">Storyboard</a></li>
                 <li><a href="Reference.html">Reference</a></li>
-                
             </ul>
         </nav>
     </header>
 
     <main id="hobbies">
         <h1 class="align">My Hobbies</h1>
-        <p class="align"> Hobbies</p>
 
-        <div>
+        <section>
             <ul id="hobby-list">
                 <li>
                     <span class="hobby-heading">Reading</span><br>
-                    <img src="book.jpg">
+                    <img src="book.jpg" 
+                         alt="Books" class="hobby-img">
                 </li>
                 <li>
-                    <span class="hobby-heading">Football</span> <br>
-                    <img src="football.jpg">
+                    <span class="hobby-heading">Football</span><br>
+                    <img src="football.jpg" 
+                         alt="Football" class="hobby-img">
                 </li>
                 <li>
-                    <span class="hobby-heading"> Movie</span><br>
-                    <img src="movie.jpg">
+                    <span class="hobby-heading">Movies</span><br>
+                    <img src="movie.jpg" 
+                         alt="Movie reel" class="hobby-img">
                 </li>
             </ul>
-        </div>
-   
-     <p>
-I like reading based on the fact that it broadens my vocabulary and forces me to learn a new word everyday.<br>
-I love football as it's an easy and enjoyable workout.<br>
-Watching a movie relaxes you after a stressful day or if i'm bored, some movies are entertaining and fun to watch.<br>
-</p>
+        </section>
 
-<p>
-My Personal Motto is <strong>"Say a prayer before you need one."</strong>
-</p>
+        <section class="hobby-description">
+            <p>
+                I enjoy reading because it expands my vocabulary and introduces me to new ideas every day.  
+                Football is my go-to workout as it's both fun and a great way to stay active.  
+                Watching movies helps me relax after a long day, and some movies are simply entertaining and engaging.  
+            </p>
+        </section>
 
+        <section class="motto">
+            <p>
+                <strong>My Personal Motto:</strong> <em>"Say a prayer before you need one."</em>
+            </p>
+        </section>
 
-<img src="personality test.PNG">
-
-<p>
-The MOTIVES Personality Test provides structured insights into personality traits and career alignment but has limitations<br> 
-due to self-reporting and oversimplification. While it suggests roles that fit strategic and analytical thinking, the results<br> 
-should be seen as general guidelines rather than absolute truths.
-</p>
+        <section class="personality-test">
+            <h2>Personality Test</h2>
+            <img src="personality test.png" 
+                 alt="Personality Test Results" class="test-img">
+            <p>
+                The MOTIVES Personality Test provides structured insights into personality traits and career alignment,  
+                but its accuracy may be limited due to self-reporting and generalization. While it suggests strategic  
+                and analytical roles, the results should be viewed as guidelines rather than definitive conclusions.
+            </p>
+        </section>
     </main>
+
     <footer class="align_2">
-        <img src="instagram_icon.png">
-        <img src="twitter_icon.png">
-        <img src="facebook_icon.png">
+        <div class="social-icons">
+            <img src="instagram_icon.png" alt="Instagram">
+            <img src="twitter_icon.png" alt="Twitter">
+            <img src="facebook_icon.png" alt="Facebook">
+        </div>
     </footer>
 
 </body>
